@@ -12,3 +12,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+body {
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.main .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #000;
+  width: 165px;
+}
+
+.main .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  color: #000;
+}
+
+.main .header button:hover {
+  cursor: pointer;
+}
+
+.main .theList {
+  color: red;
+  padding-left: 0;
+  width: 250px;
+}
+
+.main .theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+ul.theList {
+  padding: 0;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+
